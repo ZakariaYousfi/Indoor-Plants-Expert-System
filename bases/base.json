@@ -199,7 +199,7 @@
         }
       ],
       "consequent": {
-        "variable": "name",
+        "variable": "Name",
         "condition": "=",
         "value": "Slipperwort"
       }
