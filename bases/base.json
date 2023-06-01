@@ -105,7 +105,7 @@
       ]
     }
   ],
-  "target" : "Name",
+  "target" : "Common Name",
   "memory" : [
     {
       "variable" : "Ease of care",
@@ -154,7 +154,7 @@
         }
       ],
       "consequent" : {
-        "variable" : "Name",
+        "variable" : "Common Name",
         "condition" : "=",
         "value" : "Sweet Flag"
       }
@@ -179,7 +179,7 @@
         }
       ],
       "consequent": {
-        "variable": "Name",
+        "variable": "Common Name",
         "condition": "=",
         "value": "Ox Tongue"
       }
@@ -199,7 +199,7 @@
         }
       ],
       "consequent": {
-        "variable": "Name",
+        "variable": "Common Name",
         "condition": "=",
         "value": "Slipperwort"
       }
@@ -229,7 +229,7 @@
         }
       ],
       "consequent": {
-        "variable": "Name",
+        "variable": "Common Name",
         "condition": "=",
         "value": "Ponytail"
       }
@@ -259,7 +259,7 @@
         }
       ],
       "consequent": {
-        "variable": "Name",
+        "variable": "Common Name",
         "condition": "=",
         "value": "Brevifolia Aloe"
       }
@@ -289,7 +289,7 @@
         }
       ],
       "consequent": {
-        "variable": "Name",
+        "variable": "Common Name",
         "condition": "=",
         "value": "Powder Puff"
       }
@@ -319,7 +319,7 @@
         }
       ],
       "consequent": {
-        "variable": "Name",
+        "variable": "Common Name",
         "condition": "=",
         "value": "Scarlet Star"
       }
@@ -349,7 +349,7 @@
         }
       ],
       "consequent": {
-        "variable": "Name",
+        "variable": "Common Name",
         "condition": "=",
         "value": "Philodendron Pertusum"
       }
@@ -379,7 +379,7 @@
         }
       ],
       "consequent": {
-        "variable": "Name",
+        "variable": "Common Name",
         "condition": "=",
         "value": "Little Tree Cactus"
       }
@@ -409,7 +409,7 @@
         }
       ],
       "consequent": {
-        "variable": "Name",
+        "variable": "Common Name",
         "condition": "=",
         "value": "Pigmy Date Palm"
       }
@@ -439,7 +439,7 @@
         }
       ],
       "consequent": {
-        "variable": "Name",
+        "variable": "Common Name",
         "condition": "=",
         "value": "Nephthytis"
       }
@@ -469,7 +469,7 @@
         }
       ],
       "consequent": {
-        "variable": "Name",
+        "variable": "Common Name",
         "condition": "=",
         "value": "Wandering Jew"
       }
