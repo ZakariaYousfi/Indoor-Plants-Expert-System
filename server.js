@@ -72,7 +72,8 @@ app.post('/api/bases', async (req, res) => {
     let cpt = 0
     while (true) { 
     let {conflictSet,selectedRule} = infer(knowledgeBase,fired,memory)
-    console.log(memory.get(targetVariable).value)
+    console.log("conflictSet")
+    console.log(conflictSet)
       if (memory.get(targetVariable).value!="" && cpt!=0) {
         log += '{"type" : "target found"}';
         break;
@@ -96,12 +97,9 @@ app.post('/api/bases', async (req, res) => {
     }
 
     log += ']';
-    console.log(log)
-    console.log(memory)
     let finalValues = '[';
 
     for (const [key, value] of memory.entries()) {
-      console.log(key,value)
       finalValues += `{"variable":"${value.variable}","value":"${value.value}"},`;
     }
     finalValues = finalValues.slice(0, -1) + ']';
