@@ -1,6 +1,6 @@
 # Indoor-Plants-Expert-System
 
-an expert system for indoor plants. given a plant's requirements it infers a plant.
+an expert system for indoor plants. given a plant's requirements, it infers a plant.
 
 # requirements 
 
