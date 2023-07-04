@@ -473,6 +473,68 @@
         "condition": "=",
         "value": "Wandering Jew"
       }
+    },    {
+      "label": "snake plant",
+      "antecedents": [
+        {
+          "variable": "Watering",
+          "condition": "=",
+          "value": "1 times/week"
+        },
+        {
+          "variable": "Toxicity",
+          "condition": "=",
+          "value": "non toxic"
+        },
+        {
+          "variable": "Lighting",
+          "condition": "=",
+          "value": "low"
+        }
+      ],
+      "consequent": {
+        "variable": "Common Name",
+        "condition": "=",
+        "value": "snake plant"
+      }
+    },    {
+      "label": "dracaena",
+      "antecedents": [
+        {
+          "variable": "Watering",
+          "condition": "=",
+          "value": "3 times/week"
+        },
+        {
+          "variable": "Ease of care",
+          "condition": "=",
+          "value": "difficult"
+        }
+      ],
+      "consequent": {
+        "variable": "Common Name",
+        "condition": "=",
+        "value": "dracaena"
+      }
+    },    {
+      "label": "chinese plant",
+      "antecedents": [
+        {
+          "variable": "Watering",
+          "condition": "=",
+          "value": "2 times/week"
+        },
+        {
+          "variable": "Ease of care",
+          "condition": "=",
+          "value": "average"
+        }
+      ],
+      "consequent": {
+        "variable": "Common Name",
+        "condition": "=",
+        "value": "chinese plant"
+      }
     },
     {
       "label": "easy",
